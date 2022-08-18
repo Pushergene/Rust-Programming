@@ -1,9 +1,6 @@
 use std::collections::HashMap;
 
-/// @author: Leon
 /// https://leetcode.com/problems/reduce-array-size-to-the-half/
-/// Time Complexity:    O(`len_ns`)
-/// Space Complexity:   O(`len_ns`)
 impl Solution {
     pub fn min_set_size(nums: Vec<i32>) -> i32 {
         let len_ns: usize = nums.len();
